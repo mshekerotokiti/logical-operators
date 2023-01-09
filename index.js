@@ -12,10 +12,9 @@ else {
     console.log(`Someone else should drive`)
 }; */
 
-console.log(hasDriversLicense && hasGoodVision && isTired) //returns false
 const isTired = false;
 const shouldDrive = hasDriversLicense && hasGoodVision && !isTired
-
+// true, true , false but will be inverted to true the operation will be all true
 if (shouldDrive) {
     console.log(`Sarah is able to drive`)
 }
